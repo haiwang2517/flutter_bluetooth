@@ -16,10 +16,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const BlueMainForm(title: 'Flutter Demo Home Page'),
-      routes: {
-        '/blueScan' : (context) => const BlueScan()
-      },
+      home: const BlueMainForm(title: 'Flutter 蓝牙'),
+      routes: {'/blueScan': (context) => const BlueScan()},
     );
   }
 }
